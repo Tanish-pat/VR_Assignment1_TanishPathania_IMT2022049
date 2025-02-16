@@ -19,7 +19,7 @@ for image_path in image_paths:
     # Extract image filename (without extension) to create a corresponding output folder
     image_name = os.path.splitext(os.path.basename(image_path))[0]
     image_output_folder = os.path.join(output_folder, image_name)
-
+    image_output_folder = image_output_folder + "_output"
     # Create folder for the specific image's outputs
     os.makedirs(image_output_folder, exist_ok=True)
 

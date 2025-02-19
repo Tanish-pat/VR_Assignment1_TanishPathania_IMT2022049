@@ -31,10 +31,9 @@ VR_Assignment1_TanishPathania_IMT2022049/
 │   ├── images/            # Input images (coins)
 │   ├── outputs/           # Output images (segmented coins, detection)
 │   ├── src/               # Code files
+│   │   ├── main.py
 │   │   ├── preprocessing.py
 │   │   ├── segmentation.py
-│   │   ├── main.py
-│   ├── README.md
 │
 │── task2/                 # Image Stitching (Panorama Creation)
 │   ├── images/            # Input images (overlapping scenes)
@@ -43,15 +42,15 @@ VR_Assignment1_TanishPathania_IMT2022049/
 │   │   ├── panoramas/
 │   │   ├── keypoints/
 │   ├── src/               # Code files
-│   │   ├── load_images.py
 │   │   ├── feature_extraction.py
-│   │   ├── stitcher.py
-│   │   ├── post_processor.py
+│   │   ├── load_images.py
 │   │   ├── main.py
-│   ├── README.md
+│   │   ├── post_processor.py
+│   │   ├── stitcher.py
 │
 │── requirements.txt       # Dependencies
-│── README.md              # General README file
+│── link.txt               # Github Link
+│── README.md              # README file
 ```
 
 ---
